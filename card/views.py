@@ -16,3 +16,12 @@ def user(request):
 
 def home(request):
     return render(request, 'card/home.html')
+
+def about_us(request):
+    return render(request, 'card/aboutus.html')
+
+def gallery(request):
+    return render(request, 'card/gallery.html')
+
+def calendar(request):
+    return render(request, 'card/calendar.html')
