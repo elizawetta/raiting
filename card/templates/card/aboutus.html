@@ -2,19 +2,22 @@
 {% load static %}
 <html lang="en">
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'card/main.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>Главная страница </title>
+
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a style="margin-left: auto;margin-right: auto" class="navbar-brand" href="/">Главная</a>
-    <a style="margin-left: auto;margin-right: auto" class="navbar-brand" href="/calendar">Календарь</a>
-    <a style="margin-left: auto;margin-right: auto" class="navbar-brand" href="/gallery">Галерея</a>
-    <a style="margin-left: auto;margin-right: auto" class="navbar-brand" href="/about-us">О нас</a>
+<nav class="navbar navbar-expand-lg navbar-light" style="margin-left: 20%; margin-right: 20%">
+    <a type="button" class="btn btn-outline-danger center"  href="/">Главная</a>
+    <a type="button" class="btn btn-outline-danger center"  href="/calendar">Календарь</a>
+    <a type="button" class="btn btn-outline-danger center"  href="/gallery">Галерея</a>
+    <a type="button" class="btn btn-outline-danger center"  href="/about-us">О нас</a>
 </nav>
 <table style="width:100%">
 <tr>
@@ -28,7 +31,7 @@ margin-left: auto;margin-right: auto;
         <div class="card-body">
             <h4>Елизавета Смигельская</h4>
             <h5>Глава ССК ИОМ «Гермес»</h5>
-            <a href="https://vk.com/lizsmig"><i class="fa fa-vk"></i></a>
+            <a href="https://vk.com/lizsmig" style="color: red"><i class="fa fa-vk"></i>@lizsmig</a>
         </div>
     </div></td>
 <td><div class="card" style="width: 18rem;
@@ -41,7 +44,7 @@ margin-left: auto;margin-right: auto;
             <div class="card-body">
         <h4>Марат Халфин</h4>
         <h5>Заместитель Главы ССК ИОМ «Гермес»</h5>
-        <a href="https://vk.com/mkhalfin1"><i class="fa fa-vk"></i></a>
+        <a href="https://vk.com/mkhalfin1" style="color: red"><i class="fa fa-vk"></i>@mkhalfin1</a>
     </div>
 </div>
     </td>
@@ -55,7 +58,7 @@ outline-width: 3px;">
     <div class="card-body">
         <h4>Алина Гришачкина</h4>
         <h5>Глава Медиа ССК ИОМ «Гермес»</h5>
-        <a href="https://vk.com/alishaaaa17"><i class="fa fa-vk"></i></a>
+        <a href="https://vk.com/alishaaaa17" style="color: red"><i class="fa fa-vk"></i>@alishaaaa17</a>
     </div>
 </div>
     </td>
