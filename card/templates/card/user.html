@@ -11,13 +11,10 @@
     <title>Карта болельщика</title>
 </head>
 <body>
-<div class="card" style="width: 18rem;
+<div class="card" style="width: 20rem;
 margin-left: auto;margin-right: auto;margin-top: 10%;
-outline-color: black;
-outline-style: double;
-outline-width: 3px;
-background: #ba6c5e;">
-    <img class="card-img-top" src="{% static 'card/alina.jpg'%}" alt="Card image cap">
+outline: 2px solid black;">
+    <img class="card-img-top" src="/static/card/{{photo}}" alt="Card image cap">
     <div class="card-body">
     <h4> {{fio}} </h4>
     <h5> raiting: {{raiting}}</h5>
