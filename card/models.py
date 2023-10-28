@@ -8,3 +8,5 @@ class New(models.Model):
     liga = models.TextField()
     photo = models.TextField()
 
+
+

@@ -6,3 +6,6 @@
       .carousel-inner > .item > a > img {
         margin: auto;
 }
+#liga {
+width: 40%; height: 50px; margin-top: 1%; border-radius: 5%
+}
